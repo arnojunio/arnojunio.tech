@@ -1,0 +1,39 @@
+{
+    "blogs": [{
+            "id": 1,
+            "title": "Vue js - conceitos básicos",
+            "slug": "set-up-vue-app-running-on-vite",
+            "cover": "vue.jpeg",
+            "content": "<p>This is a beginner guide on how to set up a vue.js app running on Vite, I’ll also add and configure ESLint & Prettier for linting and code formatting, set up Tailwind CSS for styling, and finally configure VueX and Vue Router.</p><p>So, let’s begin!</p><h2>Elasticsearch – some basic concepts</h2><p>Wait, what the heck is Vite.js?</p><p>Primarily Vue developers will be using Vue CLI to compile their projects, this comes with some disadvantages: You have to wait until your entire app to be bundled to start developing, this can make cold server start very slow. Larger projects can also suffer from slow Hot Module Replacement (HMR). Vite tackles these issues by compiling code on-demand, only compiling the code imported on the current screen and HMR performance is decoupled from the total number of modules, making HMR consistently fast no matter how big your app is.</p><p>Actually, Vite has a real good doc, check it out.</p><p>If you’re using npm, just run this command and follow the steps</p>",
+            "showDate": "Monday",
+            "showTime": "19:10 - 20:55"
+        }, {
+            "id": 2,
+            "title": "Using Vue.js alongside Django Template",
+            "slug": "graphql-in-django-overview",
+            "cover": "graphql-in-django-overview.png",
+            "content": "<p>This is a beginner guide on how to set up a vue.js app running on Vite, I’ll also add and configure ESLint & Prettier for linting and code formatting, set up Tailwind CSS for styling, and finally configure VueX and Vue Router.</p><p>So, let’s begin!</p><h2>Set up Vite.js</h2><p>Wait, what the heck is Vite.js?</p><p>Primarily Vue developers will be using Vue CLI to compile their projects, this comes with some disadvantages: You have to wait until your entire app to be bundled to start developing, this can make cold server start very slow. Larger projects can also suffer from slow Hot Module Replacement (HMR). Vite tackles these issues by compiling code on-demand, only compiling the code imported on the current screen and HMR performance is decoupled from the total number of modules, making HMR consistently fast no matter how big your app is.</p><p>Actually, Vite has a real good doc, check it out.</p><p>If you’re using npm, just run this command and follow the steps</p>",
+            "showDate": "Friday",
+            "showTime": "20:15 - 21:45"
+        },
+        {
+            "id": 3,
+            "title": "Set up a Vue app running on Vite",
+            "slug": "using-vuejs-alongside-django-template",
+            "cover": "vue-vite.png",
+            "content": "<p>This is a beginner guide on how to set up a vue.js app running on Vite, I’ll also add and configure ESLint & Prettier for linting and code formatting, set up Tailwind CSS for styling, and finally configure VueX and Vue Router.</p><p>So, let’s begin!</p><h2>Elasticsearch – some basic concepts</h2><p>Wait, what the heck is Vite.js?</p><p>Primarily Vue developers will be using Vue CLI to compile their projects, this comes with some disadvantages: You have to wait until your entire app to be bundled to start developing, this can make cold server start very slow. Larger projects can also suffer from slow Hot Module Replacement (HMR). Vite tackles these issues by compiling code on-demand, only compiling the code imported on the current screen and HMR performance is decoupled from the total number of modules, making HMR consistently fast no matter how big your app is.</p><p>Actually, Vite has a real good doc, check it out.</p><p>If you’re using npm, just run this command and follow the steps</p>",
+            "showDate": "Monday",
+            "showTime": "19:10 - 20:55"
+        },
+        {
+            "id": 4,
+            "title": "Set up a Vue app running on Vite",
+            "slug": "using-vuejs-alongside-django-template",
+            "cover": "vue-vite.png",
+            "content": "<p>This is a beginner guide on how to set up a vue.js app running on Vite, I’ll also add and configure ESLint & Prettier for linting and code formatting, set up Tailwind CSS for styling, and finally configure VueX and Vue Router.</p><p>So, let’s begin!</p><h2>Elasticsearch – some basic concepts</h2><p>Wait, what the heck is Vite.js?</p><p>Primarily Vue developers will be using Vue CLI to compile their projects, this comes with some disadvantages: You have to wait until your entire app to be bundled to start developing, this can make cold server start very slow. Larger projects can also suffer from slow Hot Module Replacement (HMR). Vite tackles these issues by compiling code on-demand, only compiling the code imported on the current screen and HMR performance is decoupled from the total number of modules, making HMR consistently fast no matter how big your app is.</p><p>Actually, Vite has a real good doc, check it out.</p><p>If you’re using npm, just run this command and follow the steps</p>",
+            "showDate": "Monday",
+            "showTime": "19:10 - 20:55"
+        }
+
+    ]
+}

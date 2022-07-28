@@ -1,0 +1,26 @@
+<div>
+    <p>Salve salve! Arnô aqui.</p>
+    <p>Então pessoas, nesse post vou mostar uma configuração muito útil caso você esteja desenvolvendo e precisa ter seu código sincronizado tanto com o repositório de controle de versão, quanto no servidor de produção, utilizando a ferramenta gti-ftp.
+    </p>
+    <p>Algumas IDEs pagas, já implementam este tipo de rotina automaticamente, o que facilita e muito na sincronização de arquivos e aumenta a sua produtividade.</p>
+    <h2>Instalando o git-ftp</h2>
+    <p>Para instalar o git-ftp no linux, basta digitar o código abaixo</p>
+    <p><code>
+$ sudo apt-get install git-ftp
+</code></p>
+    <p>E pronto!</p>
+    <h2>Iniciando um controle de versão em um projeto.</h2>
+    <p><code>git init</code></p>
+    <p><code>git add seusarquivos</code></p>
+    <p><code>git commit -m "sua mensagem de commit"</code></p>
+    <p><code>git push seubranch</code></p>
+    <h2>Configurando o git-ftp</h2>
+    <code>git config git-ftp.url ip_do_servidor_ftp<br>
+    git config git-ftp.user seuusuarioftp<br>git config git-ftp.password suasenhaftp</code>
+    <h2>Inicianto o git-ftp</h2>
+    <p>git ftp init</p>
+    <p>Este comando irá enviar todos os arquivos que foram versionados (repositório) para o servidor web via ftp.</p>
+    <p>git ftp push</p>
+    <p>De agora me diante, basta digitar o comando acima sempre que fizer um push pro repositório, que os arquivos alterados serão enviados para o servidor web.</p>
+    <p>Siga os passos abaixo para instalação do vue via composer</p>
+</div>
