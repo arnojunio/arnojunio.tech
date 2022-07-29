@@ -23,13 +23,11 @@
         </p>
       </article>
     </a>
-    <a href="#">
+    <a href="https://github.com/arnojunio/github-mini-search">
       <article>
-        <h1>nuxt-portfolio-dev</h1>
+        <h1>github-mini-search</h1>
         <p>
-          By reading this article, I would suppose that you know enough to
-          decide whether you will use GraphQl in your next Django project or
-          not.
+          This is a technical evaluation exercise done with Vuejs to consume the github API
         </p>
       </article>
     </a>

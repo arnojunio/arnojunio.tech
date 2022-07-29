@@ -64,7 +64,7 @@
           }}<i class="fas fa-angle-double-right"></i>
         </h2>
       </header>
-      <a href="#">
+      <a href="https://github.com/arnojunio/arnojunio" target="_blank">
         <article>
           <h1>arnojunio</h1>
           <p>
@@ -72,12 +72,11 @@
           </p>
         </article>
       </a>
-      <a href="#">
+      <a href="https://github.com/arnojunio/github-mini-search" target="_blank">
         <article>
-          <h1>nuxt-portfolio-dev</h1>
+          <h1>github-mini-search</h1>
           <p>
-            In this article, I will be giving you brief information about
-            Elasticsearch,
+            This is a technical evaluation exercise done with Vuejs to consume the github API
           </p>
         </article>
       </a>

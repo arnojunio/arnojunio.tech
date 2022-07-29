@@ -6,7 +6,7 @@
     </p>
     <h1>Get In Touch</h1>
     <h2>Feel free to:</h2>
-    <p>📧 me at aymaneMx@gmail.com</p>
+    <p>📧 me at arnojunio@gmail.com</p>
   </section>
 </template>
 

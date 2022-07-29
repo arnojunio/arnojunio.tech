@@ -9,7 +9,7 @@ class WebController extends Controller
 {
     public function index()
     {
-        //(new Access())->report();
+        (new Access())->report();
         return view('app');
     }
 }
