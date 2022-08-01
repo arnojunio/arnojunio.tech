@@ -61,10 +61,11 @@ export default {
 <style>
 .cookies {
     max-width: calc(870px - 100px);
-    max-height: 128px;
+    /*max-height: 128px;*/
     border-radius: 10px;
     position: fixed;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     bottom: 0;
     margin: 5px auto;

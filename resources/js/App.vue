@@ -6,13 +6,13 @@
     :isDay="this.isDay"
     :isPtBr="this.isPtBr"
   />
-  <router-view v-slot="{ Component }" :text="this.text">
+  <router-view v-slot="{ Component }" :text="this.text" @toogleFooter="toogleFooter">
     <transition name="scale" mode="out-in">
       <component :is="Component" :key="$route.path"><Access /></component>
     </transition>
   </router-view>
   <ScrollTopComponent />
-  <Footer />
+  <Footer :visible="visible" />
   <CookieNavigation :text="this.text"/>
 </template>
 <script>
@@ -41,7 +41,8 @@ export default {
       text: {},
       lang: "",
       isDay: true,
-      isPtBr: true
+      isPtBr: true,
+      visible:true
     };
   },
   created() {
@@ -91,6 +92,11 @@ export default {
         this.country = "United States";
         this.text = en_us;
       }
+    },
+    toogleFooter(bool)
+    {
+      this.visible = bool;
+      console.log("alterado");
     },
     setThemeBasedOnCookie() {
       if (this.cookies.get("theme") == "day") {

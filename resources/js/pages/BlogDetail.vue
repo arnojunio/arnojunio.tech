@@ -30,6 +30,7 @@ export default {
   methods: {
 
     async getBlog() {
+      this.$emit("toogleFooter", false);
       console.log(this.$isPtBr);
       await this.$axios.get("/sanctum/csrf-cookie").then((response) => {
         this.loading = true;
@@ -46,6 +47,7 @@ export default {
               });
             } else {
               this.found = true;
+              this.$emit("toogleFooter", true);
               this.blog = response.data;
 
             }

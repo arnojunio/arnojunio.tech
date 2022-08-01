@@ -1,11 +1,11 @@
 <template>
-  <footer class="footer">
+  <footer v-if="visible" class="footer">
     <hr />
     <span>
       &copy;2022 arnojunio made with ♡
     </span>
     <span>
-      <a href="https://github.com/arnojunio" target="_blank">Open sourced on Github</a>
+      <a href="https://github.com/arnojunio/arnojunio.tech" target="_blank">Open sourced on Github</a>
     </span>
 
     <ul>
@@ -20,6 +20,9 @@
 <script>
 export default {
   name: "Footer",
+  props: {
+    visible: Boolean
+  }
 };
 </script>
 

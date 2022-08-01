@@ -8,7 +8,7 @@ var en_us = {
     blogFirst: "Using Vue.js alongside Django Template",
     about: [
         "👋🏼 I’m Arno Junio, an IT Analyst at Federal University of Viçosa",
-        "🔺 Graduated from FAESA.",
+        "🔺 Graduated from FAESA University Center.",
         "🐍 I helps founders add value to society by crafting software using Python and Django Framework.",
         "🇲🇦 I'm based in Viçosa, Brazil.",
         "🔨 I'm currently learning VueJs, NuxtJs by building simple projects (including this portfolio 😊)",
@@ -69,7 +69,7 @@ var pt_br = {
     blogFirst: "Utilizando Vue.js através dos Templates Django",
     about: [
         "👋🏼 Me chamo Arno Junio, sou Analista de T.I. na Universidade Federal de Viçosa.",
-        "🔺 Graduado na FAESA.",
+        "🔺 Graduado na FAESA - Centro Universitário.",
         "🐍 Eu ajudo aos outros a agregar valor à sociedade criando software usando Python e Django Framework.",
         "🇲🇦 Estou morando em Viçosa, Brasil.",
         "🔨 Aprendo atualmente VueJs,Vuex e Nuxt.js",
@@ -82,6 +82,19 @@ var pt_br = {
     acceptAll: "Autorizar",
     rejectAll: "Rejeitar todos",
     blogs: [{
+            "title": "Mensagem de boas vindas",
+            "img": "about.png",
+            "slug": "wellcome-to-my-blog",
+            "tags": [
+                "#php",
+                "#lamp",
+                "#vue",
+                "#js"
+            ],
+            "p": "Neste post, são apresentadas os objetivos deste website",
+            "a": "Read More"
+        },
+        {
             "title": "Instalando a pilha LAMP com um repositório git",
             "img": "lamp.png",
             "slug": "installing-the-lamp-stack-to-use-vue",

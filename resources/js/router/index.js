@@ -26,7 +26,7 @@ const routes = [{
         component: () =>
             import ("../pages/BlogDetail.vue"),
         props: route => ({...route.params, slug: route.params.slug }),
-        /*beforeEnter(to, from) {
+        beforeEnter(to, from) {
             axios.get("/sanctum/csrf-cookie").then((response) => {
                 axios
                     .get(`/api/artigo/`, { params: { slug: to.params.slug } })
@@ -44,7 +44,7 @@ const routes = [{
                         console.error(error);
                     });
             });
-        }*/
+        }
     },
     {
         path: '/about',

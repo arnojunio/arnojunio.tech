@@ -450,4 +450,14 @@ main {
     .footer ul {
         margin: 0 auto;
     }
+    .cookies .message {
+        flex-basis: 100% !important;
+    }
+    .cookies .links {
+        flex-basis: 72% !important;
+    }
+    .cookies {
+        margin: 5px 30px !important;
+        font-size: 0.875em;
+    }
 }

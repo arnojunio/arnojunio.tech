@@ -64,7 +64,7 @@
           }}<i class="fas fa-angle-double-right"></i>
         </h2>
       </header>
-      <a href="https://github.com/arnojunio/arnojunio" target="_blank">
+      <a href="https://github.com/arnojunio/arnojunio.tech" target="_blank">
         <article>
           <h1>arnojunio</h1>
           <p>

@@ -7,7 +7,7 @@
     <br />
     <p>
       Este documento, e todo o conteúdo do site é oferecido por Arno Junio com o
-      endereço https://arnojunio.online, neste termo representado apenas por
+      endereço https://arnojunio.tech, neste termo representado apenas por
       "EMPRESA", que regulamenta todos os direitos e obrigações com todos que
       acessam o site, denominado neste termo como "VISITANTE", reguardado todos
       os direitos previstos na legislação, trazem as cláusulas abaixo como
