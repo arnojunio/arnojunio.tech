@@ -6,7 +6,7 @@
       <router-link :to="{ name: 'terms.show' }">{{text.termsLink}}</router-link>
     </div>
     <div class="links">
-      <a class="btn" href="#">{{text.acceptAll}}</a>
+      <a class="btn" @click="closeAllModals" href="#">{{text.acceptAll}}</a>
       <button type="button" class="btn-inverted" @click="showModal">
         {{text.cookieDef}}
       </button>
@@ -53,8 +53,17 @@ export default {
     closeAllModals(){
       this.closeModal();
       this.closeCookieModal();
+      this.$root.saveCookies = true;
+      this.$root.cookies.set("save", "true");
     }
   },
+  created()
+  {
+    const save = this.$root.cookies.get("save");
+    if(save == "true"){
+      this.visible = false;
+    }
+  }
 };
 </script>
 

@@ -42,16 +42,18 @@ export default {
       lang: "",
       isDay: true,
       isPtBr: true,
-      visible:true
+      visible:true,
+      saveCookies: false
     };
   },
   created() {
     const lang = this.cookies.get("lang");
-    if (lang === "pt") {
-      this.text = pt_br;
+    if (lang === "en" && this.saveCookies) {
+        this.text = en_us;
+        console.log("ingles");
     } else {
-      this.cookies.set("lang", "en");
-      this.text = en_us;
+      this.text = pt_br;
+      console.log("portugues");
     } 
     },
   methods: {
@@ -84,11 +86,15 @@ export default {
     toggleLang() {
       this.isPtBr = !this.isPtBr;
       if (this.isPtBr) {
-        this.cookies.set("lang", "pt");
+        if(this.saveCookies){
+          this.cookies.set("lang", "pt");
+        }
         this.country = "Brazil";
         this.text = pt_br;
       } else {
-        this.cookies.set("lang", "en");
+        if(this.saveCookies){
+          this.cookies.set("lang", "en");
+        }
         this.country = "United States";
         this.text = en_us;
       }
@@ -121,7 +127,7 @@ export default {
   },
   mounted() {
     this.setThemeBasedOnCookie()
-    this.setLangBasedOnCookie()
+    //this.setLangBasedOnCookie()
   },
 };
 </script>
