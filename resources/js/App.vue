@@ -70,7 +70,7 @@ export default {
         );
         document.documentElement.style.setProperty(
           "--main-card-color",
-          "#EAEAEA"
+          "#FFF"
         );
       } else {
         el.classList.add("night");

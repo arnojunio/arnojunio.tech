@@ -16,7 +16,7 @@
  :root {
     --main-color: #42b883;
     --main-text-color: #35495e;
-    --main-card-color: #eaeaea;
+    --main-card-color: #fff;
 }
 
 .body {
@@ -223,6 +223,8 @@ main {
 .main-blog article {
     flex-basis: 40%;
     margin: 10px;
+    padding: 20px 25px 15px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, .15);
     background-color: var(--main-card-color) !important;
     border-radius: 10px;
 }
@@ -248,8 +250,8 @@ main {
 
 .main-blog img {
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
 }
 
 
@@ -305,6 +307,7 @@ main {
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, .15);
 }
 
 .main-projects h1,
